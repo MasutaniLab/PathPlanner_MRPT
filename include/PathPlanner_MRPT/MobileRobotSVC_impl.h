@@ -17,11 +17,8 @@
 #include <iostream>
 
 #include <mrpt/maps/COccupancyGridMap2D.h>
-#ifdef WIN32
-#include <mrpt/nav/planners/CPathPlanningCircularRobot.h>
-#else
 #include <mrpt/nav/planners/PlannerSimple2D.h>
-#endif
+
 #include <mrpt/poses/CPose2D.h>
 
 using namespace mrpt;
